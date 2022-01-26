@@ -168,5 +168,5 @@ Esta ainda não é sua versão final, pretendo colocar aqui tudinho que eu apren
 
 Vá em Edit, clique em preferências e:
 
-![disable_safeup](/home/jaiaani/Imagens/safeup.png)
+![disable_safeup](./imgs/safeup.png)
 
