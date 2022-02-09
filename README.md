@@ -166,7 +166,7 @@ Esta ainda não é sua versão final, pretendo colocar aqui tudinho que eu apren
 
 ### Como desabilitar o safe update?
 
-Vá em Edit, clique em preferências e:
+Vá em Edit, clique em preferências e desmarque a ultíma opção -> Safe Updates (rejects UPDATEs and DELETEs with no restriction)
 
 ![disable_safeup](./imgs/safeup.png)
 
