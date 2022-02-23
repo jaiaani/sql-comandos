@@ -16,7 +16,7 @@ No meu computador ela se encontra nesse caminho:
 
 
 
-![](.\imgs\caminhoMysql.PNG)
+![](./imgs/caminhoMysql.PNG)
 
 
 
@@ -32,13 +32,13 @@ Caso não, procure onde esse arquivo se encontra e abra o seu terminal nessa pas
 
 A pasta deve ser parecida com esta:
 
-![](.\imgs\pastaBin.png)
+![](./imgs/pastaBin.png)
 
 ### 2º Passo 
 
 Show, feito isso seu terminal deve estar parecido com isso: certo?
 
-![](.\imgs\terminal1.png)
+![](./imgs/terminal1.png)
 
 Agora você vai iniciar o mySQL Server e habilitar a importação de arquivos 'locais' no servidor, que por padrão vem desabilitado.
 
@@ -73,7 +73,7 @@ SHOW GLOBAL VARIABLES LIKE 'local_infile';
 
 
 Ele vai retornar:
-![](.\imgs\localinfileOFF.png)
+![](./imgs/localinfileOFF.png)
 
 E então execute esse comando no terminal para mudar esse valor para **ON**
 
@@ -101,19 +101,19 @@ SHOW VARIABLES LIKE  "secure_file_priv";
 
 E retornará algo assim: certo?
 
-![](.\imgs\securePriv1.png)
+![](./imgs/securePriv1.png)
 
 Copie esse endereço do Value: **C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\ **
 
 e cole na barra de pesquisa seu explorador de arquivos:
 
-![](.\imgs\caminhoPriv.png)
+![](./imgs/caminhoPriv.png)
 
 
 
 Essa pasta está vazia, saia dela indo para MySQL Server 8.0
 
-![](.\imgs\mycaminho.png)
+![](./imgs/mycaminho.png)
 
 Agora clique no arquivo **my** , nós iremos editar esse arquivo. 
 
@@ -123,7 +123,7 @@ Com o arquivo aberto no VsCode, ou no editor de texto que vc preferir, pressione
 
 e procure pela palavra **secure**
 
-![](.\imgs\myVscode.png)
+![](./imgs/myVscode.png)
 
 Algo assim deve aparecer, certo?
 
@@ -133,19 +133,19 @@ Agora **apague esse caminho e deixe somente**
 secure-file-priv = ""
 ```
 
-![](.\imgs\secureprivVazio.png)
+![](./imgs/secureprivVazio.png)
 
 Agora salve,
 
 **para salvar esse arquivo você precisa estar como *administrador*, o próprio VsCode irá te dar a opção de tentar salvar como *administrador*.**
 
-![](.\imgs\vscodeperm.png)
+![](./imgs/vscodeperm.png)
 
 Depois de salvo, vá em **Serviços**, **procure por MySQL80** (no caso o meu é o 8.0, mas será a versão que vc baixou, ok?) e clique em **reiniciar**
 
-![](.\imgs\servicos.png)
+![](./imgs/servicos.png)
 
-![](.\imgs\reiniciar.png)
+![](./imgs/reiniciar.png)
 
 
 
@@ -158,7 +158,7 @@ SHOW VARIABLES LIKE  "secure_file_priv";
 ```
 
 e ele retornar: 
-![](.\imgs\securePriv2.png)
+![](./imgs/securePriv2.png)
 
 Significa que agora está tudo certo e podemos prosseguir para a importação!
 
